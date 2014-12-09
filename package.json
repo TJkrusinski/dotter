@@ -1,0 +1,28 @@
+{
+  "name": "dotter",
+  "version": "1.0.0",
+  "description": "dot file writer and reader",
+  "main": "index.js",
+  "dependencies": {
+    "home-path": "^0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TJkrusinski/dotter.git"
+  },
+  "keywords": [
+    "dot",
+    "file",
+    "files"
+  ],
+  "author": "TJ Krusinski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TJkrusinski/dotter/issues"
+  },
+  "homepage": "https://github.com/TJkrusinski/dotter"
+}
