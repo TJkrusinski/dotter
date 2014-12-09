@@ -35,7 +35,7 @@ exports.write = function(file, contents) {
 
 exports.read = function(file) {
   var rcPath = _getRcPath(file);
-  return fs.readFileSync(rcPath).toString();
+  return fs.readFileSync(rcPath);
 };
 
 /**

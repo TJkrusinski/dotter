@@ -30,7 +30,11 @@ describe('dot#write()', function(){
 
 describe('dot#read()', function(){
   it('reads a file to the home dir as a buffer', function(){
-    assert.equal(dot.read('biz'), new Buffer('foo bar'));
+    var value = dot.read('biz');
+    assert(Buffer.isBuffer(value));
+    for (var i = 0; i<value.length; i++) {
+      assert(value[i] == new Buffer('foo bar')[i]);
+    };
   });
 });
 
