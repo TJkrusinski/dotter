@@ -40,7 +40,7 @@ exports.read = function(file) {
   try {
     contents = fs.readFileSync(rcPath);
   } catch (e) {
-    contents = e;
+    contents = null;
   };
 
   return contents;
